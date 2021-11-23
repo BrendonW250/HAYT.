@@ -1,0 +1,35 @@
+/* styling for the contact page */
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+
+/* styling of the submit button */
+
+input[type=submit]{
+    background-color: blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* adding a darker element to the submit button */
+input[type=submit]:hover{
+    background-color: blue;
+}
+
+/* adding a darker color to the actual form itself */
+.container{
+    border-radius: 5px;
+    background-color: gray;
+    padding: 20px;
+}
